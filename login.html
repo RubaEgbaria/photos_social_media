@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="Scripts.js"></script>
+
+        <title> Social network for photos</title>
+    </head>
+    <body>
+        <br><br>
+        <div>
+            <label> * Username </label>
+            <input id="username" name="username" type="text" required/>
+        </div>
+        <br><br>
+        <div>
+            <label>* Password:</label>
+            <input type="password" id="password" name="password" required/>
+        </div>
+        <br><br>
+        <div>
+            <button type="submit"  onclick="loadFromServer()" id="submit">Sign in</button>
+        </div>
+        <br><br>
+        <div id="error_msg"></div>
+    </body>
+</html>
